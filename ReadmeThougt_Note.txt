@@ -12,6 +12,9 @@ The E-Commerce project is a full-featured web application designed to provide us
 
 <============IMPORTANT NOTES============>  <===========IMPORTANT NOTES===============>
 
+<-----------Hosted On Render Live Link--------->
+Visit Link ==> https://internshal-e-commerce-project-production.onrender.com/
+
 for login as Admin use this email id or password
 email => war@gmail.com and password => 123456789
 

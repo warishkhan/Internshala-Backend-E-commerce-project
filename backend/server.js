@@ -26,7 +26,7 @@ cloudinary.config({
   });
 
 // port
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 4000;
 
 // server
 const server = app.listen(PORT,()=>{

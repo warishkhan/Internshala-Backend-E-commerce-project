@@ -60,6 +60,12 @@
   background-color: rgb(179, 66, 46);
 }
 
+@media screen and (min-width: 500px) and (max-width: 600px){
+  .paymentContainer{
+    height: 100%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .paymentForm {
     width: 90%;

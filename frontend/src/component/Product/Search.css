@@ -57,7 +57,7 @@
 }
 @media screen and (max-width: 300px){
   .homeBtn{
-    bottom: 10%;
+    bottom: 1%;
   }
 }
 
@@ -74,6 +74,6 @@
     font: 300 4vw "Roboto";
   }
   .homeBtn{
-    bottom: 10%;
+    bottom: 5%;
   }
 }
