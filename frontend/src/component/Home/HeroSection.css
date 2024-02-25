@@ -1,0 +1,6 @@
+.hero-section{
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgBe_hpfvNOHo15lP7jWgQcyNSWVi273MIdA&usqp=CAU') no-repeat center center/cover;
+  z-index:-5;
+  opacity:.7;
+}
+

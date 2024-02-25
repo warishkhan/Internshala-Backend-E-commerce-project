@@ -1,0 +1,23 @@
+.speedDial {
+    position: absolute;
+    right: 1%;
+    top: 1.1vmax;
+  }
+  .MuiFab-primary{
+    width: 45px !important;
+  }
+  
+  .MuiFab-root, .speedDialIcon {
+    width: 45px !important;
+    height: 45px !important;
+    border-radius: 50%;
+    background-color: rgb(222, 222, 11);
+  }
+  
+
+  @media screen and (max-width: 600px){
+    .speedDial{
+       right: 1.5%;
+       top: 1vmax;
+    }
+  }

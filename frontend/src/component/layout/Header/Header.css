@@ -1,0 +1,203 @@
+/* Google Font link */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Roboto:ital,wght@1,700&display=swap');
+
+/* css reset */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.collapse{
+    position: absolute;
+    left: 40%;
+}
+.navbar-nav{
+    position: absolute;
+    left: 770px;
+}
+.navbar-brand img{
+    width: 15rem;
+}
+.navbar-toggler{
+    position: relative;
+    color:  rgb(246, 246, 7);
+    right: 14%;
+}
+.navbar-toggler:hover{
+    color:  rgb(246, 246, 7);
+}
+.navbar-toggler-icon{
+    border-radius: 5px;
+}
+
+.navbar-toggler-icon:hover{
+    color:  rgb(246, 246, 7);
+    border: 2px solid  rgb(246, 246, 7);
+}
+
+.form-group{
+    border: none;
+    outline: none;
+}
+
+input[type="search"]{
+    border-radius: 0px 0px 0px 10px;
+    margin: 0%;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    padding: 8px;
+    width: 20rem;
+}
+
+input[type="button"]{
+    border-radius: 0px 10px 0px 0px;
+    position: relative;
+    right: 7px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    padding: 9px;
+    margin: 0%;
+    background-color: rgb(222, 222, 11) ;
+    width: 8rem;
+}
+input[type="button"]:hover{
+    background-color:  rgb(246, 246, 7);
+}
+
+.cart-custom{
+    font-size: 2.5rem;
+    color: rgb(222, 222, 11);
+}
+.cart-custom:hover{
+    color:rgb(246, 246, 7);
+}
+.btn-top{
+    margin-top: 20px;
+}
+.login-btn{
+    background: rgb(222, 222, 11);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.login-btn:hover{
+    background-color:  rgb(246, 246, 7);
+}
+
+.hero-section{
+    height: 250px;
+}
+.hero-text{
+    font-size: 6.5rem;
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    text-shadow: 3px 3px 3px gray;
+    letter-spacing: 5px;
+     z-index: 1;
+}
+
+@media(max-width:300px){
+    .navbar-toggler{
+        width: 20px !important;
+        height: 20px !important;
+        right: 23%;
+    }
+    .navbar-toggler-icon{
+       display: none !important;
+    }
+    .collapse, .navbar-nav{
+        position: static;
+    }
+    .hero-text{
+        font-size: 2.5rem;
+    }
+    input[type="search"]{
+        width: 10rem;
+    }
+    input[type="button"]{
+        width: 6rem;
+    }
+    .navbar-brand img{
+        width: 10rem;
+    }
+
+}
+@media (min-width:300px) and (max-width:600px){
+    .navbar-toggler{
+        right: 16%;
+    }
+    .btn-text{
+        font-size: 11px;
+    }
+    .collapse, .navbar-nav{
+        position: static;
+    }
+    .hero-text{
+        font-size: 3.5rem;
+    }
+    input[type="search"]{
+       width: 15rem;
+    }
+    input[type="button"]{
+        width: 6rem;
+    }
+    .navbar-brand img{
+        width: 10rem;
+    }
+    .hero-section{
+        height: 180px;
+    }
+}
+@media (min-width:600px) and (max-width:768px){
+    .navbar-toggler{
+        right: 10%;
+    }
+    .collapse, .navbar-nav{
+        position: static;
+    }
+    .hero-text{
+        font-size: 3.5rem;
+    }
+    input[type="search"]{
+        width: 15rem;
+     }
+}
+@media (min-width:768px) and (max-width:992px){
+    .navbar-toggler{
+        right: 8%;
+    }
+    .collapse, .navbar-nav{
+        position: static;
+    }
+    .hero-text{
+        font-size: 3.5rem;
+    }
+}
+@media (min-width:992px) and (max-width:1280px){
+    .collapse{
+       left: 30%;
+    }
+    .navbar-nav{
+        left: 590px;
+    }
+    .hero-text{
+        font-size: 3.5rem;
+    }
+    
+}
+@media (min-width:1280px) and (max-width:1500px){
+    .collapse{
+       left: 30%;
+    }
+    .navbar-nav{
+        left: 760px;
+    }
+    .hero-text{
+        font-size: 3.5rem;
+    }
+   
+}
